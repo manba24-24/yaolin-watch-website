@@ -24,9 +24,42 @@ import team8 from "../assets/images/member-weifutao.jpg";
 export const company = {
   name: "Yaolin Technology",
   englishName: "YAOLIN TECHNOLOGY",
+  foundedYear: "2018",
+  companyStage: "Wearable technology company with product R&D, channel expansion, and scenario-led market validation.",
   phone: "400-880-0618",
   email: "business@yaolintech.com",
   address: "Guilin Aerospace University, Qixing District, Guilin",
+  companyIntro:
+    "Founded in 2018, Yaolin Technology focuses on smartwatch and wearable technology development for fitness, child safety, senior care, and business efficiency scenarios. The company combines product design, low-power hardware integration, connected app experiences, and practical service support to build wearable solutions that are easier to present, trial, and deliver.",
+  companyProfile: [
+    "Built around smartwatch product development, wearable design, and scenario-based application planning.",
+    "Serves fitness users, families, senior-care households, campus showcases, and regional channel partners.",
+    "Connects R&D, product definition, market communication, and service follow-through through a cross-functional team.",
+  ],
+  companyHighlights: [
+    { label: "Founded", value: "2018" },
+    { label: "Base", value: "Guilin" },
+    { label: "Focus", value: "Smart wearables" },
+    { label: "Coverage", value: "4 key scenarios" },
+  ],
+  milestones: [
+    {
+      title: "Product and scenario expansion",
+      text: "The lineup has gradually expanded across sports, child safety, senior wellness, and business productivity to support clearer market segmentation.",
+    },
+    {
+      title: "Regional channel cooperation",
+      text: "Channel collaboration in South China supports offline demos, user trials, and partner-oriented wearable presentations.",
+    },
+    {
+      title: "Cross-functional delivery model",
+      text: "Product, engineering, operations, and market roles work together to move from product concept to showcase-ready delivery.",
+    },
+    {
+      title: "Seed-stage development momentum",
+      text: "Recent startup progress includes funding support, product sampling, and experience-driven promotion planning.",
+    },
+  ],
   heroWatch,
   aboutBuilding,
 };
