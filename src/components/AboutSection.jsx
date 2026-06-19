@@ -58,6 +58,7 @@ export function AboutSection() {
           </motion.div>
         </div>
 
+        {/* Keep the timeline visually tied to the About summary after trimming profile cards. */}
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           whileInView={{ opacity: 1, y: 0 }}
